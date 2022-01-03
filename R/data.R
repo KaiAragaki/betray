@@ -1,0 +1,24 @@
+#' Character Data from Betrayal at House on the Hill
+#'
+#' A dataset containing data given by the character cards from the board game 'Betrayal at House on the Hill'
+#'
+#' @format A data.frame with 12 rows and 15 variables:
+#' \describe{
+#'   \item{hero}{The name of the hero}
+#'   \item{color}{The color of the character card, more or less}
+#'   \item{age}{The age of the hero, in years}
+#'   \item{height}{The height of the hero, in inches}
+#'   \item{weight}{The weight of the hero, in pounds}
+#'   \item{hobbies}{A character vector of the hero's hobbies, as they appear on the card}
+#'   \item{birthday}{The birthday of the hero. As only month and day is given on the card, assumes that the measurement was taken on January 1st of the year the first edition came out (2004)}
+#'   \item{speed}{The speed of the hero, where 0 is 'dead'}
+#'   \item{speed_init_pos}{The index of the starting value in the speed vector}
+#'   \item{might}{The might of the hero, where 0 is 'dead'}
+#'   \item{might_init_pos}{The index of the starting value in the might vector}
+#'   \item{sanity}{The sanity of the hero, where 0 is 'dead'}
+#'   \item{sanity_init_pos}{The index of the starting value in the sanity vector}
+#'   \item{knowledge}{The knowledge of the hero, where 0 is 'dead'}
+#'   \item{knowledge_init_pos}{The index of the starting value in the knowledge vector}
+#' }
+#' @source 'Betrayal at House on the Hill' (2nd Edition, 2021, Hasbro)
+"betray"
